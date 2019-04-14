@@ -110,7 +110,7 @@ public class HoraSistema extends javax.swing.JFrame {
         // TODO add your handling code here:
         Date relogio = new Date();
         lblMensagem.setText(relogio.toString());
-        lblAutor.setText("Christian");
+        lblAutor.setText("Christian Caique");
         
         Locale idioma = Locale.getDefault();
         lblIdioma.setText(idioma.getDisplayLanguage());
